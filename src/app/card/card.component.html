@@ -1,0 +1,21 @@
+<div style="background-image: url('assets/images/bg.jpg');">
+
+ 
+      
+      
+       
+        
+    <div class="row">
+
+   
+    <div class="col-6" *ngFor="let product of products">
+      <h1 *ngFor="let types of type">{{types}}</h1>
+      <div class="card" style="width: 13rem;" *ngFor="let item of product">
+        <img src="assets/images/card.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h1 class="card-text">{{item}}</h1>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
